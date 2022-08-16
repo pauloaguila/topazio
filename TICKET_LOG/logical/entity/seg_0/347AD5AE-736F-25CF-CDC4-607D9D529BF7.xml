@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="347AD5AE-736F-25CF-CDC4-607D9D529BF7" name="CLIENTE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:11:16 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<engineerTo>
+<item key="E9D4E20E-F415-2B53-5F7E-F6E81134F117" value="true"/>
+<item key="437DE500-A00C-BECE-1ADF-0D470263EF3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="C861A230-455A-4CD4-816A-AF497BFE0E55">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:11:28 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<engineerTo>
+<item key="E9D4E20E-F415-2B53-5F7E-F6E81134F117" value="true"/>
+<item key="437DE500-A00C-BECE-1ADF-0D470263EF3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="6FF4A8AD-D6EF-A052-0284-BA5F0C75CAC0">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:11:56 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<engineerTo>
+<item key="E9D4E20E-F415-2B53-5F7E-F6E81134F117" value="true"/>
+<item key="437DE500-A00C-BECE-1ADF-0D470263EF3F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

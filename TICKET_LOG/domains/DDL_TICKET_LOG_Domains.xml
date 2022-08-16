@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="DDL_TICKET_LOG_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_2_0" id="1FDACFFC-9BE4-8573-263E-0CC2ACAADBC3">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="26F6C1DE-8B67-C40A-D37E-9C03BBDB7431">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_4_0" id="288CAAFA-AB77-BEA0-0749-9A8E3D42460A">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_20" id="29D1388E-8020-E0A3-74DF-31D4A4273FE9">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_6_2_0" id="3F7D4057-4797-51C0-E900-13243BE774DA">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_16_0_0" id="470CAFAA-DE45-B241-3AD0-FE929A9C919B">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_35" id="4ED53DEF-FA1A-4426-7577-973F955AAFBB">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>35</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_15_0_0" id="61808BAA-33AD-3EC0-D0B3-C3F6E839E878">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="732D7AE2-4F67-8BC7-0052-FDE87C61F280">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_14_0_0" id="99354769-172A-C528-68BF-6710FF3AE848">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_2_0" id="A14EA93A-9414-7791-E02E-A23F29AD12EE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_4_2_0" id="BD0762B8-A542-530D-0593-B349CCA6C850">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="CB1D9D9B-AACE-EA40-A7C4-0061AAED96BA">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_2_0" id="EDF324B0-BACD-6C7C-8386-070F460562AC">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="F4E249FD-C301-26D1-BF71-79F5C2DABA82">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="F7A6FCB4-0B7E-FC96-C548-9B25708FFDFE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>DDL_TICKET_LOG_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

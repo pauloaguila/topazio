@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMISSOR_CARTAO" directorySegmentName="seg_0" id="514B0701-A2AC-4D8D-A8CC-7AF1A06408D1">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:23:36 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FANTASIA" id="0E190330-6DB1-E6A8-0BE1-7F24DED82265">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:24:25 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_EMISSOR_CARTAO" id="1DAFEE7F-0E06-5C95-65F2-6169DF19AFDE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:24:25 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_EMISSOR_CARTAO" id="CB6F21E6-511E-7DF8-4AD4-C262E54FEC72">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:24:25 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

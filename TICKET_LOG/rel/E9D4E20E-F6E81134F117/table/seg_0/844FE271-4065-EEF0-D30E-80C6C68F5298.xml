@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="844FE271-4065-EEF0-D30E-80C6C68F5298" name="MARCA_REDE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:24:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_MARCA_REDE" id="97EDCD46-1C84-A2B0-3B33-076E1383D0BC">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:25:18 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARCA_REDE" id="F697CD5E-88D4-9B9A-BBC3-AC0F491DE5F5">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:25:41 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78ADD984-0C01-A943-51CD-14EC7810E935" name="PK_MARCA_REDE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:25:18 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97EDCD46-1C84-A2B0-3B33-076E1383D0BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

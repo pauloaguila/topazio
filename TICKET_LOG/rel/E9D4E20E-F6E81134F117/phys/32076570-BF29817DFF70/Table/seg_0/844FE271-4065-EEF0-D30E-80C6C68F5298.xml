@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MARCA_REDE" directorySegmentName="seg_0" id="844FE271-4065-EEF0-D30E-80C6C68F5298">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:24:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CD_MARCA_REDE" id="97EDCD46-1C84-A2B0-3B33-076E1383D0BC">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:25:18 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARCA_REDE" id="F697CD5E-88D4-9B9A-BBC3-AC0F491DE5F5">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:25:41 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_MARCA_REDE" id="78ADD984-0C01-A943-51CD-14EC7810E935">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:25:18 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

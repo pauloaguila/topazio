@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NOTA_FISCAL_SERVICO" directorySegmentName="seg_0" id="2FF1B39D-441C-97E5-BF2D-248AF4E64946">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VL_LIQUIDO" id="477FE6C9-8083-0E5F-D3D9-5C6C08EBA046">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_ESTABELECIMENTO" id="4DBCCD26-31FC-5849-8860-516A80B03D28">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VL_SERVICO_INTER" id="5FCF95A2-43DB-9DFE-A1F3-4BC528DBF92F">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_EMISSAO" id="689F7F42-C645-CD16-A09B-F4BEF78A36D6">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_QUANTIDADE_DOCUMENTOS" id="84FD9172-DB98-EA40-BF40-C58606B23F1B">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_MODIFICACAO" id="884F0A47-18A1-0FA6-1854-CA2019DEB030">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_VENCIMENTO" id="BF74AA68-A561-59BA-E2FE-F1334F55226B">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_PAGAMENTO" id="C6E52EB1-9E7E-B37C-C7DA-ECC2390E06D8">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_GERACAO" id="C77823D8-771D-5E65-534D-62BE354FA94A">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_NOTA_FISCAL_SERVICO" id="C9F4254F-284E-E4EA-63D8-CF5DEFC7E960">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VL_FACIAL_TOTAL" id="E29A01FB-E151-6619-E12C-29A0C23FBD7E">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_CANCELAMENTO" id="E3C73555-1597-B246-CF3A-1BDB183413FF">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_LOTE" id="F650C175-BD80-262B-DEC4-7820EBC3DEC7">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_NOTA_FISCAL_SERVICO" id="F79FBDD7-E115-5F54-0BFD-C6F576E1C50E">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_ENVIO_BANCO" id="F956C434-C920-355E-762F-8976D92B189C">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IX_Relationship42" id="71BFB320-1179-8ADB-1711-7A526F7019E6">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Relationship42" id="E0B1DDCE-1C4E-8B06-6620-5441CD187504">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_NOTA_FISCAL_SERVICO" id="663347EE-8C89-5208-C6B7-6500C2388952">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

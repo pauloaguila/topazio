@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ESTABELECIMENTO_CONTATO" directorySegmentName="seg_0" id="515708DA-4D21-33BF-95BC-1EEC95BF114C">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:06:15 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DH_ACAO" id="0898479F-F2F1-0A76-1110-3E8130C83524">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:21:23 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="2F0BB2DE-F516-1F6F-6814-DD22AFC5F58D">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:10:13 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_SETOR" id="39FC4CAE-51EC-E1CF-A731-A77608960E18">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:10:30 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="433150FD-BAD5-B5BA-47F1-AC46F5EAD8AC">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:10:13 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_TIPO_FUNCAO" id="44FA02F7-5620-2FAC-B8CC-A2BB0F79AA2D">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:10:13 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_USUARIO" id="7BD3D068-446F-6049-F295-0A88D0805146">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 21:06:32 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_ESTABELECIMENTO" id="85F6CA86-AC75-BDA0-BCAA-5F22A25BE331">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:22:12 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_CARGO" id="88B15BB3-7183-7536-0562-D8485A820564">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:15:24 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_ESTABELECIMENTO_CONTATO" id="94A1C93C-F408-C744-676A-72A23E6E123A">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:06:49 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_MODIFICACAO" id="C2E99B0F-8F3E-374B-7F6A-2401227F6E78">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:19:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FL_RESPONSAVEL_PAGAMENTO" id="E3385963-A406-5E44-C3D1-1A72ABDDD3D1">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:19:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_NASCIMENTO" id="ED91E157-327E-BD5B-82AE-D34DB1F35F23">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:10:13 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FL_ENVIA_EXTRATO_ANTECIPACAO" id="FE85D8A7-CAC0-8C7A-4722-E389B2F21260">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:20:26 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ESTABELECIMENTO_CONTATO_ESTABELECIMENTO_FK" id="2613AC48-7063-90F9-1163-8D6E9F69DD02">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:22:12 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ESTABELECIMENTO_CONTATO_USUARIO" id="CA9E7D00-B6DF-C660-14EF-637F8722D7E1">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 21:06:32 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ESTABELECIMENTO_CONTATO" id="B8DB0895-F692-B151-9185-EF7288D26DDF">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 17:40:15 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

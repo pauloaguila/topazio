@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49357A8B-C6E2-A261-3709-329E2D46B652" name="CIDADE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:02 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_CIDADE" id="BAC33C97-81C6-606D-ADDD-E33AC5335930">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="0F0BD9FC-1CBF-33F8-EFE5-D2B9311075A9">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_UF" id="AFD0501D-1BC4-027E-16FF-DE289A2E4757">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5CBCBF1-2ECC-C436-1093-2C1920DD7FFE" name="PK_CIDADE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAC33C97-81C6-606D-ADDD-E33AC5335930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

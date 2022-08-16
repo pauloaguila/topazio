@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3C8C062-C4CB-629E-A8CB-72BEE90FB46B" containerWithKeyObject="CDE0E782-2AF6-1000-0328-51BEC1EF2D0A" localFKIndex="661DB7ED-76D5-813E-BB8E-BE80498B7873" name="FK_ESTABELECIMENTO_TAXA_PRAZO_EMISSOR_CARTAO">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 21:28:42 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<referredTableLongName>EMISSOR_CARTAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>514B0701-A2AC-4D8D-A8CC-7AF1A06408D1</referredTableID>
+<keyObject>CB6F21E6-511E-7DF8-4AD4-C262E54FEC72</keyObject>
+<referredKeyID>CB6F21E6-511E-7DF8-4AD4-C262E54FEC72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_EMISSOR_CARTAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

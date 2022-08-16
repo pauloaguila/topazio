@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="43A1DBA7-6797-16EC-CE0D-03215D135E56" containerWithKeyObject="D1A9560A-F5AE-4D32-9171-EC4890FA32AD" localFKIndex="70F69B50-5F66-3C98-CC13-E464E18CCEA1" name="FK_ESTABELECIMENTO_GRUPO_ESTABELECIMENTO">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:14 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<referredTableLongName>ESTABELECIMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AFDF15D-8B74-5C47-4E99-E873A3A4484B</referredTableID>
+<keyObject>580DF0A9-8E2C-7FFF-8128-44B30FB1BD85</keyObject>
+<referredKeyID>580DF0A9-8E2C-7FFF-8128-44B30FB1BD85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_ESTABELECIMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

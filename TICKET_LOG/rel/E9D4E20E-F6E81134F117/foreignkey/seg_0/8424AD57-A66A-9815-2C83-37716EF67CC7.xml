@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8424AD57-A66A-9815-2C83-37716EF67CC7" containerWithKeyObject="82CF81E1-54AA-3592-2712-8E44E85B3846" localFKIndex="A0456047-F4D5-3AF6-D736-3F5D682A5174" name="FK_CONTRATO_AAR_USUARIO">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:36:36 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<referredTableLongName>USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84998985-244A-76BD-99C6-47E682B0C283</referredTableID>
+<keyObject>6575E28F-FC34-EE3A-69FA-484C0970D64C</keyObject>
+<referredKeyID>6575E28F-FC34-EE3A-69FA-484C0970D64C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

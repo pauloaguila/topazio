@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E1C927A-3B01-CA82-86A4-19B1B4C11B62" containerWithKeyObject="6AFDF15D-8B74-5C47-4E99-E873A3A4484B" localFKIndex="AB295AEB-F1B9-3184-A297-E83EC2B78A7A" name="FK_ESTABELECIMENTO_MARCA_REDE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 21:43:11 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<referredTableLongName>MARCA_REDE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>844FE271-4065-EEF0-D30E-80C6C68F5298</referredTableID>
+<keyObject>78ADD984-0C01-A943-51CD-14EC7810E935</keyObject>
+<referredKeyID>78ADD984-0C01-A943-51CD-14EC7810E935</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_MARCA_REDE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

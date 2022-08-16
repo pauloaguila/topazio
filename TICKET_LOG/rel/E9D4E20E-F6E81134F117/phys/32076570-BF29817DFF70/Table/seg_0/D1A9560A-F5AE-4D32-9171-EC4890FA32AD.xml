@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ESTABELECIMENTO_GRUPO" directorySegmentName="seg_0" id="D1A9560A-F5AE-4D32-9171-EC4890FA32AD">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:44:08 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CD_GRUPO" id="7C6F3072-097E-D837-DAD0-42E75F9CDCA1">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:03 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_USUARIO" id="95677B5F-D2DA-7D44-C044-85876421D220">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:57:43 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_ESTABELECIMENTO" id="B1C23676-2FB2-7DEE-A9CB-A27E649950AD">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:14 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_MODIFICACAO" id="BC6B59FB-F7AF-D074-334D-F2603603D149">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:03 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ESTABELECIMENTO_GRUPO_ESTABELECIMENTO" id="70F69B50-5F66-3C98-CC13-E464E18CCEA1">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:14 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ESTABELECIMENTO_GRUPO_USUARIO" id="8A761B62-FC1A-D6A5-FE4B-499872FC8F23">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:57:43 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

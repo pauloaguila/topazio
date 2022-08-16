@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BANCO" directorySegmentName="seg_0" id="9E480B18-85E4-AD9A-1556-FFF10FA49A8D">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:20:25 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOME" id="2E6C4718-8B8A-93BE-BD01-DFC35B0342A5">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:00 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_BANCO" id="AD3F4F43-EF4E-0070-71E9-E359B9B3DB07">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:00 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_BANCO" id="0FD4E104-8D55-EC96-1693-907683F9B657">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:00 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

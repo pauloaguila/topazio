@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="728C7DFB-37FE-DCBA-A0FF-22FCAAA04BD1" name="CLIENTE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:05:33 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="AB14D682-8147-6A7A-7F87-0C3562B0957C">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:06:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="E53A161A-641B-B6E9-13B4-B884D1F7E1A0">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:06:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93768351-6F4D-D816-2EAD-46EA81F7B26C" name="CLIENTE_PK">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:09:23 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB14D682-8147-6A7A-7F87-0C3562B0957C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

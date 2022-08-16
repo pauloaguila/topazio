@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DEA7C7E-B245-E787-2488-6C48A384C698" containerWithKeyObject="A9E752FD-F0D1-C678-4A22-E13D543B2AD1" localFKIndex="2F73AC23-5AC5-5BD4-57B9-D0BAAF8334F1" name="Relationship48">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>4B6F3FF2-ADA0-D330-A997-623694B9E923</importedID>
+<referredTableLongName>ESTABELECIMENTO_ADIANTAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F68B431E-B59A-B87B-C0E5-9D9FADAA6492</referredTableID>
+<keyObject>CD6462AB-BED9-3155-0326-DA1B8B0969FE</keyObject>
+<referredKeyID>CD6462AB-BED9-3155-0326-DA1B8B0969FE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CD_ESTABELECIMENTO_ADIANTAMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

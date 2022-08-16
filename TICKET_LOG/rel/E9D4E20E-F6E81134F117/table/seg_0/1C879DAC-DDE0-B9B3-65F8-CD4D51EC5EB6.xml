@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C879DAC-DDE0-B9B3-65F8-CD4D51EC5EB6" name="COMERCIAL">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:22:09 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_COMERCIAL" id="613A1380-1681-45A0-E8B0-68FEE8770D4E">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:22:54 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_USUARIO_COLABORADOR" id="FC8F3476-EFD1-8393-FA86-E9E49468B5B5">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:22:54 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93242362-2E43-701D-632A-FFD00B4693A3" name="PK_COMERCIAL">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:22:54 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="613A1380-1681-45A0-E8B0-68FEE8770D4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

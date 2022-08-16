@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1A9560A-F5AE-4D32-9171-EC4890FA32AD" name="ESTABELECIMENTO_GRUPO">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:44:08 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_ESTABELECIMENTO" id="B1C23676-2FB2-7DEE-A9CB-A27E649950AD">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:14 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43A1DBA7-6797-16EC-CE0D-03215D135E56" referredColumn="CFE5779B-FA98-8070-AE6E-4A013DF52D67"/>
+</associations>
+</Column>
+<Column name="CD_GRUPO" id="7C6F3072-097E-D837-DAD0-42E75F9CDCA1">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:03 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_USUARIO" id="95677B5F-D2DA-7D44-C044-85876421D220">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:57:43 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43EBB902-7922-C98C-7A5B-8F849FACB143" referredColumn="9F68C22B-BC7C-C2FD-95B7-0BB36CC67F74"/>
+</associations>
+</Column>
+<Column name="DT_MODIFICACAO" id="BC6B59FB-F7AF-D074-334D-F2603603D149">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:03 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70F69B50-5F66-3C98-CC13-E464E18CCEA1" name="FK_ESTABELECIMENTO_GRUPO_ESTABELECIMENTO">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:45:14 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1C23676-2FB2-7DEE-A9CB-A27E649950AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A761B62-FC1A-D6A5-FE4B-499872FC8F23" name="FK_ESTABELECIMENTO_GRUPO_USUARIO">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:57:43 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95677B5F-D2DA-7D44-C044-85876421D220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

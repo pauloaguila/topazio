@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E9BF900-D306-ED38-D7CC-7AA4ED5197DB" containerWithKeyObject="82CF81E1-54AA-3592-2712-8E44E85B3846" localFKIndex="86FCBABF-190A-9BEB-24C9-7F7FFCE06B90" name="FK_CONTRATO_AAR_TIPO_ATENCIPACAO_AAR">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>ECAED0A2-692A-665B-696F-0E6816B77362</importedID>
+<referredTableLongName>TIPO_ANTECIPACAO_AAR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D05EAB6B-8DD9-FA82-A4E3-9BFE56CAEA22</referredTableID>
+<keyObject>2E732BB9-62C8-C6AD-5336-77A8D9CFF18D</keyObject>
+<referredKeyID>2E732BB9-62C8-C6AD-5336-77A8D9CFF18D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CD_TIPO_ANTECIPACAO_AAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

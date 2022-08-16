@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EF2808E-782E-93B9-6D44-2B936F6518AA" containerWithKeyObject="0B78E96E-161C-8229-6AB0-7CAE53EF9578" localFKIndex="EA428832-724F-B8B9-0FF9-03E500EFEF20" name="FK_ESTABELECIMENTO_TAXA_NEGOCIADA_LOTE">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>B516CB38-2E7B-B41E-D4CB-5B027015F99D</importedID>
+<referredTableLongName>LOTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7913D83-E384-8E03-8A74-76B9823EAAAD</referredTableID>
+<keyObject>EF2A355F-2474-CDDF-C502-37D601038824</keyObject>
+<referredKeyID>EF2A355F-2474-CDDF-C502-37D601038824</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CD_LOTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

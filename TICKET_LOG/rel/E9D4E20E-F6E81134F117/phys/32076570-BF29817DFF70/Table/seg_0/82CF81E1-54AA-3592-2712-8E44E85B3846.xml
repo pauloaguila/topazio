@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONTRATO_AAR" directorySegmentName="seg_0" id="82CF81E1-54AA-3592-2712-8E44E85B3846">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CD_CONTRATO_AAR" id="037CE7C5-A33F-CA58-BDAE-988EFE47D06F">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_USUARIO" id="2EBA5550-DBB5-CC3D-8BC2-17D4BBFB174B">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:36:36 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_INICIO" id="64A69741-5D4F-2FD7-EFE9-5B03DA1E9D55">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:34:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_TIPO_SITUACAO_CONTRATO_AAR" id="6EBA6286-9795-263C-EF30-3A59F6DC5636">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_TIPO_SITUACAO_ESTAB_AAR" id="731291C1-B3E4-C311-2C8E-16BA578F8634">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_TIPO_ANTECIPACAO_AAR" id="92152BF1-23DE-692E-D901-EB18BAA2B1FD">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_ENVIO" id="961E7DA5-5DC2-0A96-EE82-5FE75E6E8B3A">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_RECEBIMENTO" id="97F62EE9-367E-9842-BDCC-3667B8167E58">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:36:11 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_TERMO_ADESAO_AAR" id="A5DE0E0C-B933-2378-92A3-B660B0D707C5">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_DIAS_MAXIMO" id="A6402A51-C9F8-29B6-7B5B-6D2319C2D657">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:34:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERC_TAXA_MES" id="A7B3BA42-F103-1EAF-E027-114185CE9FFB">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:34:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_MODIFICACAO" id="AE729698-3ADA-CE7B-226D-0B764A96DD6F">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:36:11 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERC_TAXA_DIA" id="B2C0891E-E251-D9FB-2269-A158969A98E7">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:34:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FL_RENOVA_AAR" id="B9A259D2-C0C2-0B59-A2D3-01BD3378CE18">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:36:11 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_DIAS_MINIMO" id="C40203C5-FAD9-24ED-29B9-02770FB30300">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:34:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_ESTABELECIMENTO" id="D4E463CE-A61C-FC03-1E20-CB17D4C93F50">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CONTRATO_AAR_ESTABELECIMENTO" id="2EBA58AC-5D9D-7E20-797B-A209C2DBD807">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CONTRATO_AAR_TIPO_ATENCIPACAO_AAR" id="86FCBABF-190A-9BEB-24C9-7F7FFCE06B90">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CONTRATO_AAR_USUARIO" id="A0456047-F4D5-3AF6-D736-3F5D682A5174">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 20:36:36 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CONTRATO_AAR_TIPO_SITUACAO_CONTRATO_AAR" id="ED25AC3C-8ACF-D5AF-71F4-CD2C7FFBA08D">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CONTRATO_AAR" id="EE386805-7FF1-D173-28B6-8E3101E49D43">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CIDADE" directorySegmentName="seg_0" id="49357A8B-C6E2-A261-3709-329E2D46B652">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:02 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOME" id="0F0BD9FC-1CBF-33F8-EFE5-D2B9311075A9">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_UF" id="AFD0501D-1BC4-027E-16FF-DE289A2E4757">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_CIDADE" id="BAC33C97-81C6-606D-ADDD-E33AC5335930">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CIDADE" id="C5CBCBF1-2ECC-C436-1093-2C1920DD7FFE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 19:21:58 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

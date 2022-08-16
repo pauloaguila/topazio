@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF9B1E2E-8CD6-42B8-2397-8BA945D8B663" containerWithKeyObject="CDE0E782-2AF6-1000-0328-51BEC1EF2D0A" localFKIndex="7C510891-59F3-0D8A-EE97-6B2632D2AB18" name="FK_ESTABELECIMENTO_TAXA_PRAZO_CLIENTE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 21:25:17 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<referredTableLongName>CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C3D5207-A993-F0C7-85CD-D8C0B0DFF6A6</referredTableID>
+<keyObject>591E61F8-FE17-C38C-95E3-4F12E420CE71</keyObject>
+<referredKeyID>591E61F8-FE17-C38C-95E3-4F12E420CE71</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

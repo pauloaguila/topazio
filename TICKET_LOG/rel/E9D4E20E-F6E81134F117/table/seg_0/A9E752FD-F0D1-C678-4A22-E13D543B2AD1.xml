@@ -1,0 +1,283 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9E752FD-F0D1-C678-4A22-E13D543B2AD1" name="TRANSACAO_PARCELA">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>2309A784-673A-BBFF-4566-7A6B2B388D71</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_TRANSACAO" id="B3D4F4F7-7BA0-A14D-819C-1E7AE177C73B">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>9D2E9E7A-2B5D-93B2-6E6F-E9D02DD4F148</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>26F6C1DE-8B67-C40A-D37E-9C03BBDB7431</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EFEFFF3-E934-BCC4-72F7-AA552546B1D9" referredColumn="1518F1B4-3C05-9473-9964-50BD6D1DC696"/>
+</associations>
+</Column>
+<Column name="CD_TRANSACAO_PARCELA" id="8C88494A-168E-6024-46C2-5BCD523767F7">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>55084A70-1F7B-56A4-4A5D-0D06452A2AD2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>26F6C1DE-8B67-C40A-D37E-9C03BBDB7431</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_PARCELA" id="B818C4D3-215C-A7E8-A707-93106786ADBD">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>88D95854-7B19-1B7A-0871-F7906C0D7374</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A14EA93A-9414-7791-E02E-A23F29AD12EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FL_FATURA_ESTABELECIMENTO" id="A45AF917-09E3-1244-4CD1-1CF131AB6D8D">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>B206848C-4E9D-E620-BCDA-82E0A7E83024</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>732D7AE2-4F67-8BC7-0052-FDE87C61F280</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_PARCELA" id="5922542F-501C-9754-2705-C8DD97915219">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>A7C1957D-E4B1-CC33-3C6A-6164317163E3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>26F6C1DE-8B67-C40A-D37E-9C03BBDB7431</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_LOTE" id="9C1A0CFE-5443-45CD-BC85-1EFD8FE92954">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>E04E04E1-2A68-FA76-5D56-59E45C449BC1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE50740C-A605-ED0E-9530-CCF83AA32FA7" referredColumn="C070D951-24FB-27BC-998B-DEC169C6B39C"/>
+</associations>
+</Column>
+<Column name="VL_A_PAGAR" id="6881D8CE-60AB-69B9-DFE6-0B5791C1436D">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>C8841CD2-F32D-55E4-FEDB-63464A4B239E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A14EA93A-9414-7791-E02E-A23F29AD12EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_PRAZO" id="44E89AD5-48A2-57B4-4E04-2C91261F73BF">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>F0C25C35-DA38-B9E0-E8E0-A1D24DF84D8D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>26F6C1DE-8B67-C40A-D37E-9C03BBDB7431</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_VENCIMENTO" id="0D12C991-A838-BD12-9971-CDECF7E3C650">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>57B2F0EB-58BB-1928-32D5-42A542BF037C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F7A6FCB4-0B7E-FC96-C548-9B25708FFDFE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_ESTABELECIMENTO_ADIANTAMENTO" id="6241362C-95CF-C904-2002-44701ECDFFFD">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>17BB5940-D4C9-668F-2618-D9845015AD76</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DEA7C7E-B245-E787-2488-6C48A384C698" referredColumn="588F2AFE-4033-A3E3-0A1C-B92D37431752"/>
+</associations>
+</Column>
+<Column name="VL_COMISSAO_PARCELA" id="F748A030-B152-6287-F7E4-9ABD2CBC539C">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>0284D8EF-ED6D-109B-3AE8-26B229EB2D78</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A14EA93A-9414-7791-E02E-A23F29AD12EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_NOTA_FISCAL_SERVICO" id="2EB43743-F1CB-653D-7EC0-7AE2907B3CC0">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>03FE06F1-207E-8E1A-3A2F-0D09662EA391</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>26F6C1DE-8B67-C40A-D37E-9C03BBDB7431</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D35F91B-74DC-DFCC-5906-CFB444A175A6" referredColumn="C9F4254F-284E-E4EA-63D8-CF5DEFC7E960"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FB16C66-34D9-977F-B4A0-6C70979F9B42" name="PK_TRANSACAO_PARCELA">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<importedID>86717D34-1AC5-28CE-2FA5-81BC4F0B7E91</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C88494A-168E-6024-46C2-5BCD523767F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53659786-772C-7219-E646-1A93633A08D2" name="IX_Relationship46">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C2DEB381-240A-BAFC-E739-199E6A77A6D0</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D4F4F7-7BA0-A14D-819C-1E7AE177C73B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="697A9BA1-6A8A-03FE-FBD3-40389B886164" name="IX_Relationship47">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>F824A7E5-16A7-52E2-6AF5-5D0DF1DE69C9</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C1A0CFE-5443-45CD-BC85-1EFD8FE92954"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="610412AA-9C00-3CE6-D68D-9892B3AE5297" name="IX_Relationship48">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>62D63371-8D5D-DF59-E7D9-B143D1B33E95</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6241362C-95CF-C904-2002-44701ECDFFFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EAEFDA1-3E35-ADB0-F02E-E812F44192A2" name="IX_Relationship49">
+<sourceDDLFile>DDL_TICKET_LOG.sql</sourceDDLFile>
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>A4B4802E-8853-F657-FF68-57F60BE86C75</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EB43743-F1CB-653D-7EC0-7AE2907B3CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A81E890-B656-98C4-6A85-19CE3BC6F86B" name="Relationship46">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D4F4F7-7BA0-A14D-819C-1E7AE177C73B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64BCFE72-1FDB-B6E8-6921-5074102008E7" name="Relationship47">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C1A0CFE-5443-45CD-BC85-1EFD8FE92954"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F73AC23-5AC5-5BD4-57B9-D0BAAF8334F1" name="Relationship48">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6241362C-95CF-C904-2002-44701ECDFFFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70D9076B-264E-5EB2-0135-BD1922AC3A89" name="Relationship49">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 02:15:05 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EB43743-F1CB-653D-7EC0-7AE2907B3CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

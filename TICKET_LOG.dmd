@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TICKET_LOG" id="A3F6DD7F-9714-F1EC-1ABC-833BF1198C2A" version="3.5">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 01:59:57 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A3F6DD7F-9714-F1EC-1ABC-833BF1198C2A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D945DBB9-083B-E346-B400-E65F95600973">
+<designStoragePath>D:\DDL_TICKET_LOG</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

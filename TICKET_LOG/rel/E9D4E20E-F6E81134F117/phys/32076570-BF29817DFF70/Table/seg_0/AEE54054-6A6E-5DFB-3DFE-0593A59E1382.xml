@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ESTABELECIMENTO_CONTA_CORRENTE" directorySegmentName="seg_0" id="AEE54054-6A6E-5DFB-3DFE-0593A59E1382">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:19:35 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FL_CONTA_REEMBOLSO" id="2BE81869-2B79-EC39-1423-83205E42EDB0">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:22:52 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_BANCO" id="74EE9AF8-F90F-E9C6-3366-4691B60316D1">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 21:05:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_ESTABELECIMENTO_CONTA_CORRENTE" id="7A259221-C5B7-71E4-125A-28EBAC2EA5D5">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:21:12 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_CONTA_CORRENTE" id="800B8BA6-3F04-ACC1-49F5-1B31D44955A8">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:22:06 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_AGENCIA" id="BEB186B1-AF4C-0B2B-3DB3-9745B163EBDE">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:21:12 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_DIGITO_VERIFICADOR" id="EEEF4EAC-CFAC-D549-A521-80D71F9E98CF">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:22:06 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_ESTABELECIMENTO" id="F1C404CC-2A62-BA1D-77A0-BDD0A1976AA7">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:43:49 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ESTABELECIMENTO_CONTA_CORRENTE_BANCO" id="3614C4CB-AF91-1E49-B1BC-B596AB835AB6">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 21:05:34 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ESTABELECIMENTO_CONTA_CORRENTE_ESTABELECIMENTO_FK" id="BB2D0DE7-7EE8-F9B0-C065-01EC151F7D43">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:43:49 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ESTABELECIMENTO_CONTA_CORRENTE" id="51175860-5472-F2A3-FC08-A00D7679264E">
+<createdBy>paulo</createdBy>
+<createdTime>2022-08-16 18:44:33 UTC</createdTime>
+<ownerDesignName>TICKET_LOG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
